@@ -20,7 +20,7 @@ public class UserInputHandling
                 return doubleConvert;
             }  catch(Exception e)
                 {
-                System.out.println("An error has occured, numerical value required.");
+                System.out.println("An error has occurred, numerical value required.");
                 QueryUser reRun = new QueryUser();
                 reRun.qUser();
                 }
