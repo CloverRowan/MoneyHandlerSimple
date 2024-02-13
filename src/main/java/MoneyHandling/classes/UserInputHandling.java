@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class UserInputHandling
 {
+    private int change;
     public Scanner userIn = new Scanner(System.in);
     private double checkValue;
     private double checkAmount;

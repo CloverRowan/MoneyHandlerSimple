@@ -27,6 +27,7 @@ public class QueryUser
                 input1.setCoinAmount();
 
             case "total":
+
                 double total = (input1.getCashValue() * input1.getCashAmount()) + (input1.getCheckValue() * input1.getCheckCount()) + (input1.getCoinValue() * input1.getCoinAmount());
                 System.out.println("Total Amount deposited is " + total + "$");
                 break;
